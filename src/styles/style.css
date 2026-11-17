@@ -752,3 +752,18 @@ label { display: block; font-weight: 500; margin-bottom: 0.375rem; color: var(--
   border-color: var(--accent-gold, #b8912f);
   color: var(--accent-gold, #b8912f);
 }
+
+/* Hide Netlify injected badge/widget */
+a[href*="netlify.com"],
+a[href*="netlify.app"][aria-label*="Netlify"],
+iframe[src*="netlify"],
+img[src*="netlify"],
+#netlify-badge,
+.netlify-badge,
+[class*="netlify-badge"],
+[id*="netlify-badge"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
