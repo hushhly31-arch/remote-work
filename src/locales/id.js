@@ -320,6 +320,49 @@ export const materials = {
     ],
     answerKeyNote: "Answer key hidden until Results page."
   },
+  standards: {
+    title: "Referensi Standar Bangunan & SOP (US / UK / Global)",
+    intro: "Gunakan standar yang diakui ini sebagai acuan dasar untuk gambar kerja, dimensi, aksesibilitas, keselamatan, dan koordinasi fit-out. Terapkan ketentuan proyek/yurisdiksi yang disebutkan di brief/kontrak.",
+    groups: [
+      {
+        region: "US (IBC / ICC / NFPA / ADA)",
+        items: [
+          { code: "IBC (International Building Code)", desc: "Persyaratan minimum keselamatan bangunan, jalur evakuasi, hunian, proteksi kebakaran, dan ketentuan struktural (ICC)." },
+          { code: "ADA Standards for Accessible Design (2010)", desc: "Rute aksesibel, ruang bebas, manuver pintu, jangkauan, dan persyaratan fasilitas sanitasi." },
+          { code: "ICC A117.1", desc: "Bangunan dan fasilitas yang aksesibel — kriteria teknis yang sering dirujuk IBC/ADA." },
+          { code: "IPC (International Plumbing Code)", desc: "Tata letak fixture, drainase, venting, dan ketentuan sanitasi untuk area basah." },
+          { code: "NFPA 101 Life Safety Code", desc: "Sarana egress, lebar koridor, ayunan pintu/hambatan, dan perencanaan keselamatan jiwa/kebakaran." }
+        ]
+      },
+      {
+        region: "UK (Building Regulations / BS)",
+        items: [
+          { code: "Approved Document B", desc: "Keselamatan kebakaran — peringatan dan sarana evakuasi, penyebaran api internal, akses petugas pemadam." },
+          { code: "Approved Document F", desc: "Ventilasi — udara segar dan pembuangan memadai untuk ruang huni dan area basah." },
+          { code: "Approved Document G & H", desc: "Sanitasi/air panas dan drainase air kotor/limbah untuk kamar mandi dan plumbing." },
+          { code: "Approved Document K & M", desc: "Proteksi dari jatuh/tabrakan/benturan serta akses dan penggunaan bangunan (desain inklusif)." },
+          { code: "BS 8300-2:2018", desc: "Desain lingkungan binaan yang aksesibel dan inklusif — bangunan (kode praktik)." }
+        ]
+      },
+      {
+        region: "Global / ISO (Gambar & Aksesibilitas)",
+        items: [
+          { code: "ISO 128 (seri)", desc: "Dokumentasi teknis — prinsip umum penyajian gambar, tampak, garis, dan tata letak." },
+          { code: "ISO 129-1", desc: "Prinsip dimensi dan toleransi — pencantuman ukuran pada gambar teknis." },
+          { code: "ISO 21542:2021", desc: "Konstruksi bangunan — aksesibilitas dan kegunaan lingkungan binaan." }
+        ]
+      },
+      {
+        region: "Konteks Proyek (Australia / NCC / AS-NZS)",
+        items: [
+          { code: "NCC (National Construction Code)", desc: "Persyaratan kinerja kesehatan, kenyamanan, keselamatan (termasuk egress dan kebakaran) di Australia." },
+          { code: "AS/NZS 3000 (Wiring Rules)", desc: "Keselamatan dan penempatan instalasi listrik — dirujuk di brief untuk titik stopkontak." },
+          { code: "AS 1428.1", desc: "Desain akses dan mobilitas — persyaratan umum akses pada bangunan baru." }
+        ]
+      }
+    ],
+    note: "Hanya referensi untuk simulasi ini: ikuti brief proyek, kondisi as-built, dan instruksi PM/klien. Verifikasi kepatuhan otoritas/yurisdiksi setempat pada proyek nyata."
+  },
   nextDeliverables: "Next: Deliverables List"
 };
 

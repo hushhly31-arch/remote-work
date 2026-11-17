@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { allPages } from '@/data.js';
-import Watermark from './Watermark';
 import useTranslation from '@/hooks/useTranslation';
 
 const LanguageSwitcher = ({ floating = false }) => {
@@ -112,7 +111,6 @@ const Layout = ({ children, showLanguageSwitcher = true }) => {
   if (isIntro || isLogin) {
     return (
       <>
-        <Watermark />
         {showLanguageSwitcher && <LanguageSwitcher floating />}
         <main className="intro-layout">
           {children}
@@ -123,7 +121,6 @@ const Layout = ({ children, showLanguageSwitcher = true }) => {
 
   return (
     <>
-      <Watermark />
       <div className="app-shell">
         <aside className="sidebar" role="navigation" aria-label="Simulation stages">
           <div className="sidebar-header">

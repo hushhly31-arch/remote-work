@@ -66,6 +66,28 @@ const MaterialsPage = () => {
         </div>
       </div>
 
+      {m.standards && (
+        <div className="section-block">
+          <h3>{m.standards.title}</h3>
+          <p className="text-secondary" style={{ marginBottom: '1rem' }}>{m.standards.intro}</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem' }}>
+            {m.standards.groups.map((g, i) => (
+              <div key={i} style={{ background: 'var(--bg-warm)', border: '1px solid var(--border-light)', borderRadius: 'var(--radius-md)', padding: '1rem' }}>
+                <h4 style={{ margin: '0 0 0.5rem', fontSize: '1rem' }}>{g.region}</h4>
+                <ul style={{ margin: 0, paddingLeft: '1.1rem' }}>
+                  {g.items.map((it, j) => (
+                    <li key={j} style={{ marginBottom: '0.45rem', fontSize: '0.92rem', lineHeight: 1.5 }}>
+                      <strong>{it.code}:</strong> {it.desc}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          {m.standards.note && <p className="text-muted" style={{ fontSize: '0.8rem', marginTop: '0.75rem', marginBottom: 0 }}>{m.standards.note}</p>}
+        </div>
+      )}
+
       <div className="section-block" style={{ background: 'var(--accent-gold-light)', border: '1px solid var(--accent-gold)', borderRadius: 'var(--radius-lg)', padding: '1.5rem' }}>
         <h3 style={{ color: 'var(--accent-gold-hover)' }}>{m.asBuilt.errorsTitle}</h3>
         <p className="mb-3">{m.asBuilt.errorsDesc}</p>

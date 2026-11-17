@@ -320,6 +320,49 @@ export const materials = {
     ],
     answerKeyNote: "Answer key hidden until Results page."
   },
+  standards: {
+    title: "Building Standards & SOP Reference (US / UK / Global)",
+    intro: "Use these recognized standards as baseline guidance for drawings, dimensions, accessibility, safety, and fit-out coordination. Apply the project/jurisdiction requirements stated in the brief/contract.",
+    groups: [
+      {
+        region: "US (IBC / ICC / NFPA / ADA)",
+        items: [
+          { code: "IBC (International Building Code)", desc: "Minimum requirements for building safety, egress, occupancy, fire protection, and structural provisions (ICC)." },
+          { code: "ADA Standards for Accessible Design (2010)", desc: "Accessible routes, clearances, door maneuvering, reach ranges, and sanitary facility requirements." },
+          { code: "ICC A117.1", desc: "Accessible and usable buildings and facilities — technical criteria often referenced by IBC/ADA." },
+          { code: "IPC (International Plumbing Code)", desc: "Fixture layout, drainage, venting, and sanitary provisions for wet areas." },
+          { code: "NFPA 101 Life Safety Code", desc: "Means of egress, corridor widths, door swing/obstructions, and fire/life-safety planning." }
+        ]
+      },
+      {
+        region: "UK (Building Regulations / BS)",
+        items: [
+          { code: "Approved Document B", desc: "Fire safety — means of warning and escape, internal fire spread, and access for fire service." },
+          { code: "Approved Document F", desc: "Ventilation — adequate fresh air and extract for habitable rooms and wet areas." },
+          { code: "Approved Document G & H", desc: "Sanitation/hot water safety and foul/waste drainage for bathrooms and plumbing." },
+          { code: "Approved Document K & M", desc: "Protection from falling/collision/impact and access to/use of buildings (inclusive design)." },
+          { code: "BS 8300-2:2018", desc: "Design of an accessible and inclusive built environment — buildings (code of practice)." }
+        ]
+      },
+      {
+        region: "Global / ISO (Drawings & Accessibility)",
+        items: [
+          { code: "ISO 128 (series)", desc: "Technical product documentation — general principles of presentation for drawings, views, lines, and layouts." },
+          { code: "ISO 129-1", desc: "Dimensioning and tolerancing principles — indication of dimensions on technical drawings." },
+          { code: "ISO 21542:2021", desc: "Building construction — accessibility and usability of the built environment." }
+        ]
+      },
+      {
+        region: "Project Context (Australia / NCC / AS-NZS)",
+        items: [
+          { code: "NCC (National Construction Code)", desc: "Performance requirements for health, amenity, safety (including egress and fire) in Australia." },
+          { code: "AS/NZS 3000 (Wiring Rules)", desc: "Electrical installation safety and placement — referenced in brief for power outlets." },
+          { code: "AS 1428.1", desc: "Design for access and mobility — general requirements for access in new buildings." }
+        ]
+      }
+    ],
+    note: "Reference only for this simulation: follow the specific project brief, as-built conditions, and PM/client instructions. Verify local authority/jurisdiction compliance in real projects."
+  },
   nextDeliverables: "Next: Deliverables List"
 };
 
