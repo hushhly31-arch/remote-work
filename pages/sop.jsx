@@ -35,9 +35,11 @@ export default function SopPage() {
       <div className="section-block">
         <h3 style={h3s}>{s.s2?.heading}</h3>
         <h4 style={h4s}>{s.s2?.ukTitle}</h4>
-        <table style={table}><thead><tr>{(s.s2?.tableHead || []).map((h, i) => <th key={i} style={ths}>{h}</th>)}</tr></thead><tbody>
-          {(s.s2?.ukRows || []).map((r, i) => <tr key={i}>{r.map((c, j) => <td key={j} style={thtd}>{c}</td>)}</tr>)}
-        </tbody></table>
+        <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
+          <table style={table}><thead><tr>{(s.s2?.tableHead || []).map((h, i) => <th key={i} style={ths}>{h}</th>)}</tr></thead><tbody>
+            {(s.s2?.ukRows || []).map((r, i) => <tr key={i}>{r.map((c, j) => <td key={j} style={thtd}>{c}</td>)}</tr>)}
+          </tbody></table>
+        </div>
         <p style={ps}>{s.s2?.ukRef}</p>
         <h4 style={h4s}>{s.s2?.usTitle}</h4>
         <p style={ps}>{s.s2?.usP}</p>

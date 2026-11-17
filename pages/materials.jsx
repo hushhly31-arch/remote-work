@@ -70,7 +70,7 @@ const MaterialsPage = () => {
         <div className="section-block">
           <h3>{m.standards.title}</h3>
           <p className="text-secondary" style={{ marginBottom: '1rem' }}>{m.standards.intro}</p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 240px), 1fr))', gap: '1rem' }}>
             {m.standards.groups.map((g, i) => (
               <div key={i} style={{ background: 'var(--bg-warm)', border: '1px solid var(--border-light)', borderRadius: 'var(--radius-md)', padding: '1rem' }}>
                 <h4 style={{ margin: '0 0 0.5rem', fontSize: '1rem' }}>{g.region}</h4>
@@ -91,7 +91,7 @@ const MaterialsPage = () => {
       <div className="section-block" style={{ background: 'var(--accent-gold-light)', border: '1px solid var(--accent-gold)', borderRadius: 'var(--radius-lg)', padding: '1.5rem' }}>
         <h3 style={{ color: 'var(--accent-gold-hover)' }}>{m.asBuilt.errorsTitle}</h3>
         <p className="mb-3">{m.asBuilt.errorsDesc}</p>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 240px), 1fr))', gap: '1rem' }}>
           {m.asBuilt.errors.map((e) => (
             <div key={e.id} style={{ background: 'var(--bg-card)', border: '1px solid var(--border-light)', borderRadius: 'var(--radius-md)', padding: '1.25rem' }}>
               <h4 style={{ marginTop: 0 }}>{e.location}</h4>

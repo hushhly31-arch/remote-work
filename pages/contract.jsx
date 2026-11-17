@@ -195,7 +195,7 @@ const ContractPage = () => {
       <div className="section-block">
         <h3>2. Fee & Payment</h3>
         <div className="document-text">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem', marginBottom: '1rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 240px), 1fr))', gap: '1.5rem', marginBottom: '1rem' }}>
             <div>
               <p className="mb-1"><strong>Fixed Fee:</strong> {c.fee.amount} {c.fee.currency}</p>
               <p className="text-secondary" style={{ fontSize: '0.9rem' }}>{c.fee.breakdown}</p>

@@ -699,9 +699,6 @@ label { display: block; font-weight: 500; margin-bottom: 0.375rem; color: var(--
   .intro-title { font-size: 1.75rem; }
   .prep-list { columns: 1; }
   .credential-body, .credential-scores { grid-template-columns: 1fr; }
-  .stage-title { display: none; }
-  .stage-link { padding: 0.5rem; justify-content: center; }
-  .stage-status { display: none; }
 }
 
 /* ===========================================================
