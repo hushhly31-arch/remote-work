@@ -698,3 +698,105 @@ export const verdicts = {
   partial: "Correct with omissions",
   fail: "Partially correct"
 };
+export const sop = {
+  menu: "SOP Remote Work",
+  badge: "Panduan",
+  title: "SOP Kerja Remote Arsitektur (UK / US / Global)",
+  eyebrow: "Panduan Klien & Freelancer",
+  intro: "Panduan standar kerja remote: rantai kerja, tahapan proyek, BIM, standar gambar, kode/regulasi, skill teknis, SOP harian, dan roadmap agar klien dan freelancer selaras.",
+  s1: {
+    heading: "1. Posisimu dalam rantai kerja",
+    p: "Hampir semua klien luar negeri akan memperlakukanmu sebagai subkontraktor produksi:",
+    items: [
+      "<strong>Tanggung jawab hukum dan stempel/lisensi</strong> tetap di arsitek atau engineer klien.",
+      "<strong>Tugasmu:</strong> memproduksi model dan gambar yang akurat, konsisten, sesuai standar kantor klien, dan tepat waktu.",
+      "<strong>Nilai jualmu:</strong> kecepatan, ketelitian, pemahaman standar, dan komunikasi yang rapi."
+    ],
+    box: "<strong>SOP yang perlu dikuasai (3 lapis):</strong> (a) tahapan proyek, (b) standar dokumentasi/BIM, (c) kode bangunan dan budaya setiap region."
+  },
+  s2: {
+    heading: "2. Tahapan proyek (project stages)",
+    ukTitle: "UK: RIBA Plan of Work 2020",
+    tableHead: ["Stage", "Nama", "Inti"],
+    ukRows: [["0","Strategic Definition","kebutuhan klien, business case"],["1","Preparation & Briefing","brief, studi kelayakan, survei"],["2","Concept Design","konsep, massing, test fit"],["3","Spatial Coordination","koordinasi arsitek\u2013struktur\u2013MEP, planning application"],["4","Technical Design","gambar teknis, spesifikasi, Building Regulations"],["5","Manufacturing & Construction","shop drawings, RFI, site"],["6","Handover","as-built, O&M manual"],["7","Use","operasional"]],
+    ukRef: "Rujukan: RIBA Plan of Work 2020 Overview (situs RIBA).",
+    usTitle: "US: fase AIA",
+    usP: "Pre-Design \u2192 Schematic Design (SD) \u2192 Design Development (DD) \u2192 Construction Documents (CD) \u2192 Bidding/Negotiation \u2192 Construction Administration (CA).",
+    usTerms: "<strong>Istilah wajib:</strong> RFI, submittal, ASI (Architect\u2019s Supplemental Instruction), bulletin, addendum, punch list, change order.",
+    meTitle: "Timur Tengah (UAE/KSA/Qatar)",
+    meP: "Umumnya gabungan gaya UK dan US: Concept \u2192 Schematic \u2192 Detailed Design \u2192 Authority Approval \u2192 Tender \u2192 IFC (Issued for Construction) \u2192 Shop Drawings \u2192 As-Built. Persetujuan otoritas (municipality, civil defense, utilitas) sangat menentukan jadwal."
+  },
+  s3: {
+    heading: "3. BIM dan manajemen informasi (wajib untuk remote)",
+    p: "Area paling bernilai karena klien remote sangat bergantung pada disiplin file.",
+    items: [
+      "<strong>ISO 19650 (Part 1 & 2):</strong> EIR (Employer\u2019s Information Requirements), BEP (BIM Execution Plan), MIDP/TIDP, CDE (Common Data Environment), status WIP / Shared / Published / Archive.",
+      "<strong>UK BIM Framework:</strong> panduan dan template (ukbimframework.org).",
+      "<strong>Naming convention ISO 19650:</strong> Project-Originator-Volume-Level-Type-Role-Number (dipakai luas di UK & Timur Tengah).",
+      "<strong>Konsep:</strong> LOD/LOIN (Level of Information Need), IFC, COBie, BCF (issue tracking).",
+      "<strong>US:</strong> National BIM Standard (NBIMS-US), AIA G202/E203 (BIM protocol & LOD spec).",
+      "<strong>Revit:</strong> shared coordinates, worksets, linked models, design options, phasing, family management, model audit/purge."
+    ],
+    cde: "<strong>Platform CDE:</strong> Autodesk Construction Cloud (BIM 360), Trimble Connect, Aconex, Revizto, Procore (US), SharePoint."
+  },
+  s4: {
+    heading: "4. Standar gambar (CAD/drafting standards)",
+    items: [
+      "<strong>US:</strong> National CAD Standard (NCS), AIA CAD Layer Guidelines; penomoran sheet (A-101, A-201), designator disiplin; satuan feet-inch.",
+      "<strong>UK:</strong> BS 8541 series, BS EN ISO 7519, UK NBS Chorus/BIM Toolkit; satuan metrik (mm).",
+      "<strong>Timur Tengah:</strong> biasanya ikut standar kantor konsultan (campuran BS/ISO); metrik; sering bilingual untuk tag tertentu."
+    ],
+    must: "<strong>Wajib bisa:</strong> sheet/title block, revision cloud + revision schedule, drawing register/issue sheet/transmittal, skala/line weights/hatching/dimensioning, door/window/finish schedules, section/detail callouts, legend simbol, north point, grid & level."
+  },
+  s5: {
+    heading: "5. Kode, regulasi, dan standar per region",
+    uk: { title: "\ud83c\uddec\ud83c\udde7 UK", items: [
+      "Building Regulations 2010 & Approved Documents (gov.uk): A (struktur), B (fire), C, E (suara), F (ventilasi), L (energi), M (akses), O (overheating), P, Q, R, S.",
+      "Building Safety Act 2022 (gateway, higher-risk buildings, \u201cgolden thread\u201d).",
+      "Planning: NPPF, Local Plan, Design & Access Statement. CDM Regulations 2015 (H&S, Principal Designer).",
+      "BS 9999/9991 (fire), BS 8300 (inclusive design), Eurocodes + UK NA. Spesifikasi: NBS. Kontrak: JCT, NEC4, RIBA. Sustainability: BREEAM, Part L, SAP/SBEM."
+    ]},
+    us: { title: "\ud83c\uddfa\ud83c\uddf8 US", items: [
+      "IBC/IRC + amandemen negara/kota (CBC, NYC BC, Florida FBC, dll.); akses baca di codes.iccsafe.org.",
+      "ADA 2010 Standards, ICC A117.1 (aksesibilitas). NFPA 101/13/72 (fire/life safety).",
+      "ASHRAE 90.1/IECC (energi), ASCE 7 (beban), ACI/AISC (struktur). CSI MasterFormat 2018 & UniFormat. Kontrak: AIA A201, B101. Sustainability: LEED, WELL, Energy Star.",
+      "Pahami occupancy classification, construction type, allowable area/height, egress (inti IBC)."
+    ]},
+    me: { title: "\ud83c\udde6\ud83c\uddea\ud83c\uddf8\ud83c\udde6\ud83c\uddf6\ud83c\udde6 Timur Tengah", items: [
+      "<strong>UAE:</strong> Dubai Building Code, DM/Trakhees/DDA, ADIBC & DMT/ADM, UAE Fire and Life Safety Code (Civil Defence), Estidama (Abu Dhabi), Al Sa\u2019fat (Dubai).",
+      "<strong>Saudi Arabia:</strong> Saudi Building Code (SBC), Mostadam, Balady/Monshaat.",
+      "<strong>Qatar:</strong> QCS, GSAS, Civil Defence.",
+      "<strong>Faktor regional:</strong> iklim panas (shading, glazing, cooling), privasi (villa, mashrabiya), majlis, ruang sholat/orientasi qibla, zonasi terpisah (proyek tertentu), fire code ketat & peran Civil Defence; proyek besar sering punya design guidelines khusus."
+    ]}
+  },
+  s6: { heading: "6. Fundamental desain teknis yang harus dikuasai", items: [
+    "Space planning & ergonomi (Neufert, Metric Handbook).",
+    "Egress & fire: travel distance, exit width, compartmentation, fire rating, stair/lobby.",
+    "Aksesibilitas: ramp, lift, toilet, door clearance.",
+    "Building envelope: wall/roof build-up, U-value, waterproofing, thermal bridge, curtain wall.",
+    "Detailing: sill, threshold, parapet, expansion/movement joint.",
+    "Koordinasi struktur & MEP: grid, floor-to-floor, ceiling void, riser, clash detection.",
+    "Vertical transport, parkir, fasad. Spesifikasi/material (finish schedule, product data).",
+    "Sustainability: passive design, daylight, embodied carbon."
+  ]},
+  s7: { heading: "7. Software dan skill teknis", items: [
+    "<strong>Wajib:</strong> Revit, AutoCAD.",
+    "<strong>Sangat berguna:</strong> Navisworks (clash), Bluebeam Revu (markup, dominan di US), Dynamo, Rhino/Grasshopper.",
+    "<strong>Visualisasi:</strong> Enscape, Twinmotion, D5, V-Ray.",
+    "<strong>Kolaborasi:</strong> Teams/Slack, ACC, Revizto, Miro.",
+    "<strong>Sertifikasi:</strong> Autodesk Certified Professional (Revit), buildingSMART Professional (ISO 19650/IFC), kursus BIM Level 2 / ISO 19650 (BRE, BSI, Autodesk)."
+  ]},
+  s8: {
+    heading: "8. SOP kerja remote (yang membedakan profesional)",
+    wfTitle: "Workflow harian",
+    wf: ["Terima tugas & pahami scope: apa, level detail, deadline, format.","Baca BEP/standar kantor klien sebelum menyentuh model.","Kerjakan di model/central file sesuai aturan (workset, naming, versioning).","Self-check sebelum kirim (lihat checklist).","Kirim dengan transmittal/pesan rapi: apa yang berubah, belum, pertanyaan terbuka.","Catat revisi dan feedback di log."],
+    qaTitle: "Checklist QA sebelum submit",
+    qa: ["[ ] Sheet number/title/revision benar, title block terisi","[ ] Tidak ada warning kritis, model sudah di-audit/purge","[ ] Dimensi, level, grid, tag, schedule konsisten antar sheet","[ ] Notasi dan layer sesuai standar klien","[ ] Referensi section/detail tidak putus","[ ] Satuan sesuai (mm vs ft-in)","[ ] File naming sesuai convention","[ ] Perubahan sudah dicloud dan dilog"],
+    comTitle: "Komunikasi",
+    com: ["Tulis jelas & singkat; tanyakan ambiguitas sebelum mengerjakan jauh.","Kelola time zone: UK (GMT/BST), US (EST\u2013PST), Gulf (GMT+3/+4). Sepakati jam overlap.","Beri update proaktif; jangan diam saat terhalang."],
+    bizTitle: "Bisnis dan legal",
+    biz: ["NDA & keamanan data (jangan simpan file klien di perangkat pribadi tanpa izin).","Kontrak: scope, jumlah revisi, hak cipta (biasanya milik klien), pembayaran, terminasi.","Pembayaran: Wise, Payoneer, transfer; pahami kewajiban pajak sebagai freelancer di Indonesia.","Jangan mengklaim lisensi atau mengambil tanggung jawab yang bukan wewenangmu."]
+  },
+  s9: { heading: "9. Daftar bacaan (urut prioritas)", online: "<strong>Gratis / online:</strong> RIBA Plan of Work 2020 Overview; UK Building Regulations: Approved Documents (gov.uk, mulai B, M, L); UK BIM Framework (ukbimframework.org); ICC Digital Codes (codes.iccsafe.org \u2014 IBC Ch. 3,5,6,7,9,10,11); National CAD Standard (NIBS/buildingSMART); situs resmi Dubai Municipality, ADM, Civil Defence UAE, Saudi Building Code Committee; dokumentasi Autodesk Revit & pembelajaran BIM.", books: "<strong>Buku:</strong> Neufert (Architects\u2019 Data); Metric Handbook (Pamela Buxton); Building Construction Illustrated (F.D.K. Ching); Fundamentals of Building Construction (Allen & Iano); Time-Saver Standards for Architectural Design; Mechanical and Electrical Equipment for Buildings (Grondzik); Architect\u2019s Handbook of Professional Practice (AIA); panduan ISO 19650 (BSI/BRE)." },
+  s10: { heading: "10. Roadmap 90 hari", m1: "<strong>Bulan 1 \u2014 Fondasi:</strong> RIBA stages + AIA phases, istilah & sheet organization; Revit menengah (families, schedules, sheets, worksets); Approved Document B & M dan ringkasan egress/accessibility IBC.", m2: "<strong>Bulan 2 \u2014 Standar dan BIM:</strong> ISO 19650 + naming convention, praktik CDE (ACC trial); NCS & UK drafting standards; 1 proyek latihan lengkap (villa/low-rise) concept sampai CD.", m3: "<strong>Bulan 3 \u2014 Portofolio dan pasar:</strong> 3 sample project \u2014 UK (metrik, Part M/B), US (IBC/ADA, ft-in), Gulf (villa/mid-rise, privasi & fire code regional); portofolio set gambar + model Revit + BEP mini; mulai melamar (LinkedIn: \u201cBIM Modeller/Architectural Technician/Revit Technician remote\u201d, Upwork/Fiverr, studio outsourcing BIM, konsultan Gulf, firma kecil UK/US)." }
+};

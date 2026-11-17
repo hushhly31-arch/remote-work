@@ -698,3 +698,105 @@ export const verdicts = {
   partial: "Correct with omissions",
   fail: "Partially correct"
 };
+export const sop = {
+  menu: "SOP Remote Work",
+  badge: "Guide",
+  title: "Remote Architecture Work SOP (UK / US / Global)",
+  eyebrow: "Client & Freelancer Guide",
+  intro: "Standard guide for remote work: work chain, project stages, BIM, drawing standards, codes/regulations, technical skills, daily SOP, and roadmap so clients and freelancers stay aligned.",
+  s1: {
+    heading: "1. Your position in the work chain",
+    p: "Most overseas clients will treat you as a production subcontractor:",
+    items: [
+      "<strong>Legal responsibility and stamps/licenses</strong> remain with the client\u2019s architect or engineer.",
+      "<strong>Your role:</strong> produce accurate, consistent models and drawings that follow the client\u2019s office standards and are delivered on time.",
+      "<strong>Your value:</strong> speed, accuracy, understanding of standards, and clear communication."
+    ],
+    box: "<strong>SOPs you must master (3 layers):</strong> (a) project stages, (b) documentation/BIM standards, (c) building codes and culture of each region."
+  },
+  s2: {
+    heading: "2. Project stages",
+    ukTitle: "UK: RIBA Plan of Work 2020",
+    tableHead: ["Stage", "Name", "Core"],
+    ukRows: [["0","Strategic Definition","client needs, business case"],["1","Preparation & Briefing","brief, feasibility, surveys"],["2","Concept Design","concept, massing, test fit"],["3","Spatial Coordination","architect\u2013structure\u2013MEP coordination, planning application"],["4","Technical Design","technical drawings, specifications, Building Regulations"],["5","Manufacturing & Construction","shop drawings, RFI, site"],["6","Handover","as-built, O&M manual"],["7","Use","operation"]],
+    ukRef: "Reference: RIBA Plan of Work 2020 Overview (RIBA website).",
+    usTitle: "US: AIA phases",
+    usP: "Pre-Design \u2192 Schematic Design (SD) \u2192 Design Development (DD) \u2192 Construction Documents (CD) \u2192 Bidding/Negotiation \u2192 Construction Administration (CA).",
+    usTerms: "<strong>Key terms:</strong> RFI, submittal, ASI (Architect\u2019s Supplemental Instruction), bulletin, addendum, punch list, change order.",
+    meTitle: "Middle East (UAE/KSA/Qatar)",
+    meP: "Typically a mix of UK and US styles: Concept \u2192 Schematic \u2192 Detailed Design \u2192 Authority Approval \u2192 Tender \u2192 IFC (Issued for Construction) \u2192 Shop Drawings \u2192 As-Built. Authority approvals (municipality, civil defense, utilities) heavily drive the schedule."
+  },
+  s3: {
+    heading: "3. BIM and information management (essential for remote work)",
+    p: "The most valuable area because remote clients rely heavily on file discipline.",
+    items: [
+      "<strong>ISO 19650 (Parts 1 & 2):</strong> EIR (Employer\u2019s Information Requirements), BEP (BIM Execution Plan), MIDP/TIDP, CDE (Common Data Environment), status WIP / Shared / Published / Archive.",
+      "<strong>UK BIM Framework:</strong> guidance and templates (ukbimframework.org).",
+      "<strong>ISO 19650 naming convention:</strong> Project-Originator-Volume-Level-Type-Role-Number (widely used in UK & Middle East).",
+      "<strong>Concepts:</strong> LOD/LOIN (Level of Information Need), IFC, COBie, BCF (issue tracking).",
+      "<strong>US:</strong> National BIM Standard (NBIMS-US), AIA G202/E203 (BIM protocol & LOD spec).",
+      "<strong>Revit:</strong> shared coordinates, worksets, linked models, design options, phasing, family management, model audit/purge."
+    ],
+    cde: "<strong>CDE platforms:</strong> Autodesk Construction Cloud (BIM 360), Trimble Connect, Aconex, Revizto, Procore (US), SharePoint."
+  },
+  s4: {
+    heading: "4. Drawing standards (CAD/drafting)",
+    items: [
+      "<strong>US:</strong> National CAD Standard (NCS), AIA CAD Layer Guidelines; sheet numbering (A-101, A-201), discipline designators; units: feet-inch.",
+      "<strong>UK:</strong> BS 8541 series, BS EN ISO 7519, UK NBS Chorus/BIM Toolkit; units: metric (mm).",
+      "<strong>Middle East:</strong> usually follows the consultant office standard (BS/ISO mix); metric; often bilingual for certain tags."
+    ],
+    must: "<strong>Must-know:</strong> sheet/title block, revision cloud + revision schedule, drawing register/issue sheet/transmittal, scale/line weights/hatching/dimensioning, door/window/finish schedules, section/detail callouts, symbol legend, north point, grid & level."
+  },
+  s5: {
+    heading: "5. Codes, regulations, and standards by region",
+    uk: { title: "\ud83c\uddec\ud83c\udde7 UK", items: [
+      "Building Regulations 2010 & Approved Documents (gov.uk): A (structure), B (fire), C, E (acoustics), F (ventilation), L (energy), M (access), O (overheating), P, Q, R, S.",
+      "Building Safety Act 2022 (gateways, higher-risk buildings, \u201cgolden thread\u201d).",
+      "Planning: NPPF, Local Plan, Design & Access Statement. CDM Regulations 2015 (H&S, Principal Designer).",
+      "BS 9999/9991 (fire), BS 8300 (inclusive design), Eurocodes + UK NA. Specs: NBS. Contracts: JCT, NEC4, RIBA. Sustainability: BREEAM, Part L, SAP/SBEM."
+    ]},
+    us: { title: "\ud83c\uddfa\ud83c\uddf8 US", items: [
+      "IBC/IRC + state/city amendments (CBC, NYC BC, Florida FBC, etc.); free reading at codes.iccsafe.org.",
+      "ADA 2010 Standards, ICC A117.1 (accessibility). NFPA 101/13/72 (fire/life safety).",
+      "ASHRAE 90.1/IECC (energy), ASCE 7 (loads), ACI/AISC (structure). CSI MasterFormat 2018 & UniFormat. Contracts: AIA A201, B101. Sustainability: LEED, WELL, Energy Star.",
+      "Understand occupancy classification, construction type, allowable area/height, egress (IBC core)."
+    ]},
+    me: { title: "\ud83c\udde6\ud83c\uddea\ud83c\uddf8\ud83c\udde6\ud83c\uddf6\ud83c\udde6 Middle East", items: [
+      "<strong>UAE:</strong> Dubai Building Code, DM/Trakhees/DDA, ADIBC & DMT/ADM, UAE Fire and Life Safety Code (Civil Defence), Estidama (Abu Dhabi), Al Sa\u2019fat (Dubai).",
+      "<strong>Saudi Arabia:</strong> Saudi Building Code (SBC), Mostadam, Balady/Monshaat.",
+      "<strong>Qatar:</strong> QCS, GSAS, Civil Defence.",
+      "<strong>Regional factors:</strong> extreme heat (shading, glazing, cooling), privacy (villas, mashrabiya), majlis, prayer room/qibla orientation, gender separation (certain projects), strict fire codes & Civil Defence role; major projects often have bespoke design guidelines."
+    ]}
+  },
+  s6: { heading: "6. Technical design fundamentals to master", items: [
+    "Space planning & ergonomics (Neufert, Metric Handbook).",
+    "Egress & fire: travel distance, exit width, compartmentation, fire rating, stair/lobby.",
+    "Accessibility: ramp, lift, toilet, door clearance.",
+    "Building envelope: wall/roof build-up, U-value, waterproofing, thermal bridge, curtain wall.",
+    "Detailing: sill, threshold, parapet, expansion/movement joint.",
+    "Structure & MEP coordination: grid, floor-to-floor, ceiling void, riser, clash detection.",
+    "Vertical transport, parking, facade. Specifications/materials (finish schedule, product data).",
+    "Sustainability: passive design, daylight, embodied carbon."
+  ]},
+  s7: { heading: "7. Software and technical skills", items: [
+    "<strong>Essential:</strong> Revit, AutoCAD.",
+    "<strong>Highly useful:</strong> Navisworks (clash), Bluebeam Revu (markup, dominant in US), Dynamo, Rhino/Grasshopper.",
+    "<strong>Visualization:</strong> Enscape, Twinmotion, D5, V-Ray.",
+    "<strong>Collaboration:</strong> Teams/Slack, ACC, Revizto, Miro.",
+    "<strong>Certifications:</strong> Autodesk Certified Professional (Revit), buildingSMART Professional (ISO 19650/IFC), BIM Level 2 / ISO 19650 courses (BRE, BSI, Autodesk)."
+  ]},
+  s8: {
+    heading: "8. Remote work SOP (what sets professionals apart)",
+    wfTitle: "Daily workflow",
+    wf: ["Receive task & understand scope: what, level of detail, deadline, format.","Read client BEP/office standards before touching the model.","Work in the model/central file per rules (worksets, naming, versioning).","Self-check before sending (see checklist).","Send with a transmittal/clear message: what changed, what\u2019s pending, open questions.","Log revisions and feedback."],
+    qaTitle: "QA checklist before submit",
+    qa: ["[ ] Sheet number/title/revision correct, title block filled","[ ] No critical warnings, model audited/purged","[ ] Dimensions, levels, grids, tags, schedules consistent across sheets","[ ] Notation and layers follow client standards","[ ] Section/detail references not broken","[ ] Units correct (mm vs ft-in)","[ ] File naming follows convention","[ ] Changes clouded and logged"],
+    comTitle: "Communication",
+    com: ["Write clearly and concisely; ask about ambiguities before going far.","Manage time zones: UK (GMT/BST), US (EST\u2013PST), Gulf (GMT+3/+4). Agree on overlap hours.","Give proactive updates; don\u2019t go silent when blocked."],
+    bizTitle: "Business and legal",
+    biz: ["NDA & data security (do not store client files on personal devices without permission).","Contract: scope, revision count, copyright (usually client-owned), payment, termination.","Payment: Wise, Payoneer, bank transfer; understand tax obligations as a freelancer in Indonesia.","Do not claim licenses or take responsibility beyond your authority."]
+  },
+  s9: { heading: "9. Reading list (priority order)", online: "<strong>Free / online:</strong> RIBA Plan of Work 2020 Overview; UK Building Regulations: Approved Documents (gov.uk, start with B, M, L); UK BIM Framework (ukbimframework.org); ICC Digital Codes (codes.iccsafe.org \u2014 IBC Ch. 3,5,6,7,9,10,11); National CAD Standard (NIBS/buildingSMART); official sites of Dubai Municipality, ADM, UAE Civil Defence, Saudi Building Code Committee; Autodesk Revit docs & BIM learning.", books: "<strong>Books:</strong> Neufert (Architects\u2019 Data); Metric Handbook (Pamela Buxton); Building Construction Illustrated (F.D.K. Ching); Fundamentals of Building Construction (Allen & Iano); Time-Saver Standards for Architectural Design; Mechanical and Electrical Equipment for Buildings (Grondzik); Architect\u2019s Handbook of Professional Practice (AIA); ISO 19650 guides (BSI/BRE)." },
+  s10: { heading: "10. 90-day roadmap", m1: "<strong>Month 1 \u2014 Foundation:</strong> RIBA stages + AIA phases, terms & sheet organization; intermediate Revit (families, schedules, sheets, worksets); Approved Documents B & M and IBC egress/accessibility summary.", m2: "<strong>Month 2 \u2014 Standards and BIM:</strong> ISO 19650 + naming convention, CDE practice (ACC trial); NCS & UK drafting standards; 1 complete practice project (villa/low-rise) from concept to CD.", m3: "<strong>Month 3 \u2014 Portfolio and market:</strong> 3 sample projects \u2014 UK (metric, Part M/B), US (IBC/ADA, ft-in), Gulf (villa/mid-rise, privacy & regional fire code); portfolio set + Revit model + mini BEP; start applying (LinkedIn: \u201cBIM Modeller/Architectural Technician/Revit Technician remote\u201d, Upwork/Fiverr, BIM outsourcing studios, Gulf consultants, small UK/US firms)." }
+};
