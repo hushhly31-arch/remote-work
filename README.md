@@ -1,93 +1,150 @@
-# remotework
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="FreightEdge – Free Next.js & React template for logistics, freight forwarding, and transport businesses. Clean UI, mobile-first layout, SEO optimized." />
+  <meta name="keywords" content="Next.js logistics website template, React transportation business theme, freight forwarding company web design, cargo shipping website template with Bootstrap, supply chain management React template, multipage corporate logistics site, SEO-optimized freight company website, SCSS-based modern logistics UI, mobile-first transportation website design, fast-loading Next.js business template, responsive cargo transport site layout, professional shipping company website starter" />
+  <meta name="author" content="Themixly Web" />
+  <link rel="canonical" href="https://themixly.com/themes/freight-forwarding-react-nextjs-template/" />
+</head>
+<body>
 
+<h1>FreightEdge – Next.js Template for Freight Forwarding & Logistics Companies</h1>
 
+<h2>Introduction</h2>
+<p>FreightEdge is a free, modern Next.js & React template built for logistics, freight forwarding, and cargo transport businesses. It includes a responsive layout, clean UI, and optimized performance – perfect for professional websites in the logistics and supply chain industry.</p>
 
-## Getting started
+<h2>🔗 Live Preview</h2>
+<ul>
+  <li>🚀 <a href="https://themixly.com/preview/1602/freight-forwarding-react-nextjs-template/" target="_blank">Live Demo – FreightEdge Template</a></li>
+  <li>🛒 <a href="https://themixly.com/themes/freight-forwarding-react-nextjs-template/" target="_blank">Buy Full Version on Themixly</a></li>
+  <li>📦 <a href="https://github.com/themixlyweb/nextjs-logistics-website-template" target="_blank">Download from GitHub (Free)</a></li>
+</ul>
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+<h2>🧩 Feature Comparison: GitHub Free vs Themixly Pro</h2>
+<table>
+  <thead>
+    <tr><th>Feature</th><th>GitHub Free Version</th><th>Themixly Full Version</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Next.js 15+, React 19+</td><td>✅</td><td>✅</td></tr>
+    <tr><td>Bootstrap 5 + SCSS Styling</td><td>✅</td><td>✅</td></tr>
+    <tr><td>Multi-page Layout</td><td>❌</td><td>✅</td></tr>
+    <tr><td>Service Individual Pages</td><td>❌</td><td>✅</td></tr>
+    <tr><td>Blogs Page</td><td>❌</td><td>✅</td></tr>
+    <tr><td>Contact Form</td><td>❌</td><td>✅</td></tr>
+    <tr><td>Client Logos Section</td><td>❌</td><td>✅</td></tr>
+    <tr><td>Responsive for All Devices</td><td>✅</td><td>✅</td></tr>
+    <tr><td>Custom Components</td><td>Limited</td><td>Full UI Kit Included</td></tr>
+    <tr><td>Lifetime Updates</td><td>Community Only</td><td>Lifetime Free Updates</td></tr>
+    <tr><td>Licensing</td><td>MIT (Free)</td><td>Commercial Use Allowed</td></tr>
+    <tr><td>Premium Support</td><td>Community via GitHub</td><td>1:1 Support via Email</td></tr>
+  </tbody>
+</table>
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+<h3>👉 <a href="https://themixly.com/themes/freight-forwarding-react-nextjs-template/" target="_blank">Switch to the Complete Version</a></h3>
 
-## Add your files
+<h2>🧠 Template Use Cases</h2>
+<ul>
+  <li>Freight Forwarding Company Website</li>
+  <li>Logistics & Shipping Service Website</li>
+  <li>Transport Business Homepage</li>
+  <li>Cargo Tracking Platform</li>
+  <li>Supply Chain Management UI</li>
+</ul>
 
-* [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
+<h2>💡 Key Features</h2>
+<ul>
+  <li>Professional design for logistics & freight businesses</li>
+  <li>Responsive 4-column layout</li>
+  <li>Fast loading & SEO-optimized</li>
+  <li>Mobile-first design</li>
+  <li>Cross-browser compatible (Chrome, Firefox, Safari, Edge, Opera)</li>
+  <li>Clean code structure, developer-friendly</li>
+</ul>
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/shafiradev62-group/remotework.git
-git branch -M main
-git push -uf origin main
-```
+<h2>📸 Screenshots</h2>
+<figure>
+  <figcaption>Includes pages like Home, About, Services, Blogs, Contact Form.</figcaption><br/>
+  <img src="https://themixly.com/wp-content/uploads/2025/07/image-3-1-scaled.jpg" alt="FreightEdge – Multi-page Preview">
+</figure>
 
-## Integrate with your tools
+<figure>
+  <figcaption>Built with a mobile-first layout, the template works seamlessly across desktop, tablet, and mobile devices.</figcaption><br/>
+  <img src="https://themixly.com/wp-content/uploads/2025/07/image-2-1-scaled.jpg" alt="FreightEdge – Fully Responsive on All Devices">
+</figure>
 
-* [Set up project integrations](https://gitlab.com/shafiradev62-group/remotework/-/settings/integrations)
+<h2>✨ Why Choose FreightEdge?</h2>
+<ul>
+  <li>Designed for logistics professionals</li>
+  <li>Optimized for performance and SEO</li>
+  <li>Completely free to use and customize</li>
+  <li>Clean structure for rapid development</li>
+  <li>Built using latest Next.js + React stack</li>
+</ul>
 
-## Collaborate with your team
+<h2>🛠️ Tech Stack</h2>
+<ul>
+  <li>🌐 Next.js 15+ (App Router)</li>
+  <li>⚛️ React 18+</li>
+  <li>🎨 Bootstrap 5.x</li>
+  <li>💅 SCSS Modules</li>
+  <li>🧱 JSX / HTML</li>
+</ul>
 
-* [Invite team members and collaborators](https://docs.gitlab.com/user/project/members/)
-* [Create a new merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)
-* [Automatically close issues from merge requests](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)
-* [Enable merge request approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)
-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+<h2>🚀 Getting Started</h2>
+<pre><code>npm install       # Install dependencies
+npm run dev       # Start development server
+npm run build     # Build for production</code></pre>
 
-## Test and Deploy
+<h3>📁 Folder Structure</h3>
+<pre><code>FreightEdge/
+├── pages/
+├── public/
+│   ├── images/
+├── src/
+│   ├── assets/
+│   │   └── scss/
+│   ├── components/
+│   ├── data/
+│   └── styles/
+├── README.md
+└── package.json</code></pre>
 
-Use the built-in continuous integration in GitLab.
+<h2>📦 What’s Included in the Free GitHub Version?</h2>
+<ul>
+  <li>✅ Hero Section (Home banner)</li>
+  <li>✅ About Section (Intro)</li>
+  <li>✅ Facts Section</li>
+  <li>✅ Header and footer with basic navigation</li>
+  <li>✅ Responsive layout using Bootstrap’s grid system</li>
+  <li>✅ SCSS styling for easy customization</li>
+</ul>
+<p>🔒 Full features like about page, service individual page, blogs page, client logos section, contact form, and more are available in the premium version.</p>
+<p>👉 <a href="https://themixly.com/themes/freight-forwarding-react-nextjs-template/" target="_blank">Full Version Available – Get It on Themixly</a></p>
 
-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)
-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/user/application_security/sast/)
-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)
-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/user/clusters/agent/)
-* [Set up protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)
+<h2>📝 License</h2>
+<p>This template is licensed under the <a href="https://github.com/themixlyweb/nextjs-logistics-website-template/blob/main/LICENSE" target="_blank">MIT License</a>.<br/>
+You may use this version for personal and educational purposes.</p>
 
-***
+<h2>📢 Support & Contributions</h2>
+<ul>
+  <li>⭐ Star this repo if you find it useful</li>
+  <li>Share with your developers & logistics startups</li>
+  <li>Want full features & commercial license?</li>
+  <li>👉 Complete Template – Purchase Now at <a href="https://themixly.com/" target="_blank">Themixly</a></li>
+</ul>
 
-# Editing this README
+<h2>🧾 Contact Us</h2>
+<p>Need support or custom development?<br/>
+📩 <a href="https://themixly.com/contact-us/" target="_blank">Contact Themixly Team</a></p>
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+<p>Explore more templates → <a href="https://themixly.com/themes" target="_blank">Themixly Themes</a></p>
 
-## Suggestions for a good README
+<footer>
+  © 2025 Themixly. All rights reserved. | Built with ❤️ for developers & designers.
+</footer>
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+</body>
+</html>
