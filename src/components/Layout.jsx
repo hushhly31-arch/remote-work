@@ -177,6 +177,16 @@ const Layout = ({ children, showLanguageSwitcher = true }) => {
                   </Link>
                 </li>
               )}
+              <li className="stage-separator" aria-hidden="true" style={{ margin: '0.75rem 0', borderTop: '1px solid var(--border-light, #e5e7eb)' }}></li>
+              <li className={`stage-item ${currentPath === '/sop' ? 'active' : ''}`}>
+                <Link href="/sop" className="stage-link" aria-current={currentPath === '/sop' ? 'page' : undefined}>
+                  <span className="stage-indicator" aria-hidden="true">
+                    <svg viewBox="0 0 16 16" fill="currentColor"><path d="M2 3.5A1.5 1.5 0 013.5 2h6.086a1.5 1.5 0 011.06.44l2.915 2.914A1.5 1.5 0 0114 6.414V12.5a1.5 1.5 0 01-1.5 1.5h-9A1.5 1.5 0 012 12.5v-9zM4 6.25a.75.75 0 000 1.5h5.5a.75.75 0 000-1.5H4zm0 3a.75.75 0 000 1.5h5.5a.75.75 0 000-1.5H4z"/></svg>
+                  </span>
+                  <span className="stage-title">SOP Remote Work</span>
+                  <span className="stage-status">Guide</span>
+                </Link>
+              </li>
             </ul>
           </nav>
           <div className="sidebar-footer">
@@ -188,7 +198,7 @@ const Layout = ({ children, showLanguageSwitcher = true }) => {
           <header className="top-bar" role="banner">
             <div className="top-bar-left">
               <h1 className="page-title">
-                {simPages.find(p => p.path === currentPath)?.title || 'Results'}
+                {currentPath === '/sop' ? 'SOP Remote Work' : (simPages.find(p => p.path === currentPath)?.title || (currentPath === '/credentials' ? 'Credential' : 'Results'))}
               </h1>
             </div>
             <div className="top-bar-right">
