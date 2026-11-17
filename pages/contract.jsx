@@ -209,8 +209,8 @@ const ContractPage = () => {
         </div>
       </div>
 
-      <div className="section-block" style={{ background: '#fdf2f2', border: '1px solid #f5c6cb', borderRadius: 'var(--radius-lg)', padding: '1.5rem' }}>
-        <h3 style={{ color: 'var(--danger)' }}>3. Deadline — 60 Minutes From Accept</h3>
+      <div className="section-block" style={{ background: 'var(--bg-warm)', border: '1px solid var(--border-light)', borderRadius: 'var(--radius-lg)', padding: '1.5rem' }}>
+        <h3>3. Deadline — 60 Minutes From Accept</h3>
         <div className="document-text">
           <p><strong>Trigger:</strong> {c.deadline.startTrigger}</p>
           <p><strong>Duration:</strong> {c.deadline.minutes} minutes</p>
